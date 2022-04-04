@@ -23,10 +23,18 @@
           </div>
           <div class="flex-1">
             <div class="flex justify-around font-semibold text-lg gap-4">
-              <p class="">About Us</p>
-              <p>Services</p>
-              <p>Our Works</p>
-              <button class="text-ora font-semibold">Contact Us</button>
+              <a href="#aboutus">
+                <p class="">About Us</p>
+              </a>
+              <a href="#services">
+                <p>Services</p>
+              </a>
+              <a href="#work">
+                <p>Our Works</p>
+              </a>
+              <a href="https://form.jotform.com/220932887856067"
+                ><button class="text-ora font-semibold">Contact Us</button></a
+              >
             </div>
           </div>
         </nav>
@@ -50,22 +58,26 @@
               </p>
             </div>
             <div class="flex justify-center gap-4">
-              <button
-                class="bg-ora px-8 py-4 text-white font-semibold font-two"
-              >
-                Contact Us</button
-              ><button
-                class="border-4 border-ora text-white font-two font-semibold px-8 py-4"
-              >
-                See Our Works
-              </button>
+              <a href="https://form.jotform.com/220932887856067">
+                <button
+                  class="bg-ora px-8 py-4 text-white font-semibold font-two"
+                >
+                  Contact Us
+                </button> </a
+              ><a href="#work">
+                <button
+                  class="border-4 border-ora text-white font-two font-semibold px-8 py-4"
+                >
+                  See Our Works
+                </button>
+              </a>
             </div>
           </div>
         </div>
       </section>
       <!-- our works -->
       <section class="h-screen">
-        <div class="lg:mx-40 h-full">
+        <div class="lg:mx-40 h-full" id="work">
           <div class="py-12">
             <p class="text-center font-two font-semibold text-5xl">
               "Our <span class="text-ora">Works"</span>
@@ -125,7 +137,7 @@
       </section>
       <!-- services -->
       <section class="bg-bora">
-        <div class="h-full py-24">
+        <div class="h-full py-24" id="services">
           <div class="mb-16">
             <p
               class="text-center text-white text-5xl font-semibold font-two mb-2"
@@ -197,6 +209,7 @@
           </div>
         </div>
       </section>
+      <!-- usp -->
       <section>
         <div class="mx-40 h-full py-36">
           <div><p></p></div>
@@ -279,7 +292,38 @@
           </div>
         </div>
       </section>
-      <!-- usp -->
+      <!-- About -->
+      <section class="bg-bora">
+        <div
+          class="mx-40 flex justify-between gap-36 h-full py-96 items-center"
+          id="aboutus"
+        >
+          <div class="flex flex-col">
+            <img src="./assets/2.png" alt="" />
+          </div>
+          <div class="flex flex-col gap-10">
+            <p class="text-5xl text-ora font-semibold font-two">About us</p>
+            <p class="text-white font-medium text-lg font-two">
+              Kranti Infotech is a India’s leading Political Strategy Consulting
+              firm specialises in Political PR, Surveys (pre,exit & post poll),
+              Election Campaign Management, Political Party Registration,
+              Political Advisory, Constituency Research , Campaign War Room
+              Management, Political Research, Public Policy Research, Media
+              Communication Strategy, Political Intelligence, Analytics, Digital
+              & Social Media Management.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="bg-gray-200 w-full flex items-center justify-center py-10">
+          <a href="/">Kranti Infotech Limited: </a>
+
+          <p class="text-center text-gray-800 pl-5">
+            Helping Politicians of New India
+          </p>
+        </div>
+      </section>
     </div>
   </body>
 </html>
